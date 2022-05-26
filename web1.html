@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first_page</title>
+    <link rel="shortcut icon" href="impasto-icon.ico">
+    <link rel="stylesheet" href="web1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+                .topnav {
+      margin-top: 30px;
+      height: 12vh;
+    }
+
+    .topnav a {
+      float: right;
+      margin-left: 25px;
+      text-decoration: none;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px){
+      .topnav a {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    .topnav a:hover {
+      background-color: white;
+      color: black;
+
+    }
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {
+        position: relative;
+        height: 320px;
+      
+      }
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive .n  {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-left: 125px;
+        color: black;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+        
+      }
+  }
+
+        </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="topnav" id="myTopnav">
+
+            <img src="images/impasto-logo.jpg" class="n">
+            <a title="contact us" href="web13.html"><img src="images/animal-icom.jpg" style="margin-right: -6px;"></a>
+                <a title="squad" href="web9.html"><img src="images/samicoloun-icon.jpg" style="margin-right: -6px;">
+               <a title="milestone" href="web8.html"> <img src="images/impasto2_13.jpg" style="margin-right: -6px;">
+               <a title="work" href="web5.html"> <img src="images/rocket-icon.jpg" style="margin-right: -6px;">
+              <a title="client" href="web3.html"><img src="images/idea-icon.jpg" style="margin-right: -9px;">
+                <a title="services" href="web2.html"> <img src="images/pocket-icon.jpg" style="margin-right: -9px;"></a>
+               <a  title="about us"  href="web.html" ><img src="images/key-icon.jpg" style="margin-right: -9px;"></a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+            <img src="images/home-img-fish.jpg" id="fish">
+        </div>
+        <div class="col-4">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-4">
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4" id="creative">
+            <img src="new_images/Creative.jpg" class="d-block mx-auto">
+
+        </div>
+        <div class="col-5">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4" id="blend">
+            <img src="new_images/blend.jpg" class="d-block mx-auto">
+
+        </div>
+        <div class="col-4">
+
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+</body>
+
+</html>
