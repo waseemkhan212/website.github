@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container .row .col-6 img{
+     float: left;
+     padding-right: 15px;  
+}
+.container .row .col-6{
+    height: 80px;
+    margin-top: 35px;
+}
+#right img{
+    float: right;
+    margin-left: 10px; 
+}
+#logo{
+    margin-left: 80px;
+}
+@media screen and (max-width: 800px) {
+    .row .col-4 {
+        flex: 100%;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    #bulb{
+        flex: 100%;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 45px;
+    }
+}
+.row .col-4{
+    margin-top: 60px;
+}
+#lefttimg{
+    margin-top: 70px;
+}
+
+
