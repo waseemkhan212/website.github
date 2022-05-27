@@ -1,0 +1,744 @@
+/*navbar css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container .row .col-6 img{
+     float: left;
+    margin-left: 40px;
+
+}
+.container .row .col-6{
+    height: 80px;
+    margin-top: 44px;
+   
+}
+#right img{
+    float: right;
+    margin-left: 10px;
+    padding-right: 15px;
+}
+#logo{
+    margin-left: 80px;
+}
+/*building book iit css*/
+
+.row .col-1{
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.row .col-3{
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 img{
+    margin-top: 13px;
+}
+.row .col-4{
+    margin-top: 30px;
+}
+.row .col-2{
+    margin-top: 50px;
+}
+.col-3 p{
+    margin-top: 5px;
+}
+.row #building_book{
+    margin-left: 30px;
+}
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1200px) {
+    .row .col-1{
+      flex: 100%;
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+ 
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .row .col-3{
+      flex: 100%;
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    #advance{
+      flex: 100%;
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  }
+/*building trust for your dream css*/
+#design3{
+    margin-top: 7px;
+}
+#design4{
+    margin-top: -10px;
+}
+
+/*samajdhari css*/
+#big{
+    margin-top: 4px;
+}
+
+/*Qoot css*/
+#qoot{
+    margin-top: 5px;
+}
+
+/*filmi css*/ 
+#filmi{
+    margin-top: 6px;
+}
+
+
+/*invest for the future css*/ 
+#brand4{
+    margin-left: 25px;
+    margin-top: 18px;   
+}
+.col-4 .brand1{
+    margin-left: 25px;
+}
+/*mi css*/ 
+ .col-2 #mi{
+    margin-bottom: -30px; 
+}
+.pa{
+    margin-top: -30px;
+    margin-left: 44px;
+}
+.col-9 #prosperity2{
+     margin-right: -2px;
+}
+ .col-8 .da{
+     margin-left: 40px;
+}
+#mi4{
+    margin-top: 22px;  
+}
+#mi5{
+    margin-top: 5px;  
+
+}
+#full{
+    margin-top: -55px;
+}
+.digitalpara{
+    margin-top: 20px;
+
+}
+
+/*hcl css*/ 
+
+/*fasttrax css*/ 
+#spanish{
+    margin-top: 5px;
+}
+#fast{
+    margin-top: -35px;
+}
+
+
+/*urban css*/ 
+.col-8 #urban{
+    margin-top: -39px;
+}
+/*celebrate css*/ 
+ #celebrate{
+    margin-top: -65px;
+    margin-left: 2px;
+}
+#menu{
+    margin-top: -140px;
+}
+#menu2{
+    margin-top: -115px;
+}
+#menu3{
+    margin-top: -22px;
+}
+#column{
+    margin-top: 2px;
+}
+
+/*honor css*/ 
+ #honor2{
+    margin-top: 37px;
+}
+#honor{
+    margin-left: 3px;
+}
+#honor3{
+    margin-left: 2px;
+}
+
+/*realme css*/ 
+
+#realme1{
+    margin-top: 39px;
+}
+#realme4{
+    margin-top: 5px;
+}
+#realme5{
+    margin-top: 5px;
+}
+
+/*toshiba css*/ 
+#bs4{
+    margin-top: 4px;
+}
+#bs5{
+    margin-top: 4px;
+}
+
+/*tatasky css*/ 
+ .col-3 .toshiba6{
+    margin-top: 6px;
+}
+/*tatasky css*/ 
+#tatasky5{
+    margin-top: 5px;
+}
+#tatasky2{
+    margin-top: 5px;
+}
+#tatasky7{
+    margin-top: 5px;
+}
+/*fiesta css*/
+ #fiesta{
+    margin-top: 21px;
+}
+.col-3 #fiesta2{
+    margin-top: 19px;
+}
+.col-3 #fiesta3{
+    margin-top: 6px;
+}
+.col-3 .fiesta4{
+    margin-top: 6px;
+}
+.col-3 #fiesta4{
+    margin-top: 18px;
+}
+/*marketing collateral css*/
+
+#mc3{
+  margin-left: 5px;
+    margin-top: 6px;
+}
+
+/*marketing collateral2 css*/
+.col-3 #marketing5{
+    margin-left: 62px;
+}
+.col-3 #marketing4{
+    margin-left: 4px;
+}
+#sec{
+    margin-top: -5px;
+}
+/*marketing collateral3 css*/
+.col-1 #mr2{
+    margin-top: 18px;
+}
+ #mr1{
+    margin-top: 17px;
+}
+#mr{
+    margin-top: 7px;
+
+}
+#mr4{
+    margin-top: 6px;
+}
+#mr3{
+    margin-top: 18px;
+}
+#mr6{
+    margin-top: 6px;
+}
+/*marketing collateral4 css*/
+.col-3 #choco{
+    margin-top: 3px;
+}
+.col-3 #choco2{
+    margin-top: 6px;
+}
+.col-1 .choco4{
+    margin-top: 6px;
+}
+.col-1 #choco4{
+    margin-left: 25px;
+}
+.col-1 #choc{
+    margin-left: 3px;
+}
+/*marketing collateral5 css*/
+ .mc2{
+    margin-top: 12px;
+}
+#mc7{
+    margin-top: 6px;
+    margin-left: 4px;
+}
+#mc6{
+    margin-top: 6px;
+}
+#mc5{
+    margin-top: 6px;
+}
+/*marketing collateral6 css*/
+#market{
+    margin-top: 7px ;
+}
+#market6{
+    margin-top: 6px;
+}
+#top{
+    margin-top: 26px;
+}
+
+/*digital media css*/
+#media2{
+ margin-left: 43px;
+}
+#media{
+ margin-left: 43px;
+}
+#med{
+    margin-left: 60px;
+}
+/*digital media2 css*/
+#media3{
+    margin-left: 80px;
+}
+.media3{
+    margin-top: 32px;
+}
+/*digital media css*/
+#dm{
+    margin-top: 6px;
+}
+/*corporate gifting css*/
+
+
+
+#c3{
+    margin-top: 5px;
+}
+#c4{
+    margin-top: 8px;
+}
+
+/*corporate gifting2 css*/
+.col-3 .tshirt{
+    margin-left: -18px;
+}
+#sports4{
+    margin-left: 3px;
+}
+.sports1{
+    margin-left: 5px;
+}
+#sports7{
+    margin-left: 5px;
+}
+#map{
+    margin-top: 6px;
+}
+ .col-3 .cup{
+    margin-top: 5px;
+}
+#sports3{
+    margin-top: 6px;
+}
+/*corporate gifting3 css*/
+#corp{
+    margin-left: -17px;
+    margin-top: 7px;
+}
+#bag{
+    margin-top: 6px;
+}
+
+#gifting{
+    margin-top: 7px;
+}
+/*corporate gifting4 css*/
+.col-3 .torch{
+    margin-top: 6px;
+}
+/*event & exhibition css*/
+#event5{
+    margin-top: 6px;
+}
+#event8{
+    margin-top: 6px;
+}
+#event7{
+    margin-top: 6px;
+}
+#event6{
+    margin-top: 6px;
+}
+/*event & exhibition2 css*/
+#event14{
+    margin-left: -132px;
+    margin-top: 6px;
+}
+#event12{
+    margin-top: 6px;
+}
+#event13{
+    margin-top: 5px;
+}
+/*event & exhibition3 css*/
+#event19{
+    margin-top: 5px;
+}
+#event17{
+    margin-top: 5px;
+}
+#event20{
+    margin-top: 5px;
+}
+#event21{
+    margin-top: 5px;
+}
+/*testimonial css*/
+#test{
+    margin-top: 105px;
+}
+#test9{
+    margin-left: 600px;
+}
+/*blog css*/
+#blog{
+    margin-top: 50px;
+}
+#blog2{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+ 
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
